@@ -298,6 +298,7 @@ DEPENDENCIES
   rails (~> 6.0.2, >= 6.0.2.1)
   rails-i18n
   rspec-rails
+  rubocop
   sass-rails (>= 6)
   selenium-webdriver
   solargraph
