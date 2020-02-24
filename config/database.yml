@@ -84,5 +84,5 @@ test:
 production:
   <<: *default
   database: yogaworld_production
-  username: yogaworld
+  username: postgres
   password: <%= ENV['YOGAWORLD_DATABASE_PASSWORD'] %>

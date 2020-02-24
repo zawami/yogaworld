@@ -30,5 +30,8 @@ module Yogaworld
       g.test_framework :rspec
       g.view_specs false
     end
+
+    config.hosts << "localhost"
+
   end
 end
