@@ -1,0 +1,10 @@
+<header class="navbar navbar-fixed-top navbar-inverse"> 
+  <span class="logo-mark">YOGA WORLD</span>
+  <%=
+    if current_ir_member
+      link_to "Logout",instructor_session,method: :delete
+    else
+      link_to "Log in"
+    end
+  %>
+</header>
