@@ -1,3 +1,10 @@
 <header class="navbar navbar-fixed-top navbar-inverse"> 
   <span class="logo-mark">YOGA WORLD</span>
+  <%=
+    if current_organization
+     link_to "Logout",:organizer,method: :delete
+    else
+     link_to "Log in",:organizer_login
+    end
+  %>
 </header>
