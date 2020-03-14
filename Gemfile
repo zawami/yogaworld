@@ -7,7 +7,7 @@ ruby '2.6.4'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails"
 gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
-gem 'bootstrap', '~> 4.1.1'
+gem 'bootstrap', '~> 4.3.1'
 gem 'jquery-rails'
 gem 'uglifier'
 # Use postgresql as the database for Active Record
