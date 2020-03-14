@@ -2,9 +2,9 @@
   <span class="logo-mark">YOGA WORLD</span>
   <%=
     if current_ir_member
-      link_to "Logout",instructor_session,method: :delete
+      link_to "Logout",instructor_session_path,method: :delete
     else
-      link_to "Log in"
+      link_to "Log in", :instructor_login
     end
   %>
 </header>

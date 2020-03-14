@@ -2,7 +2,7 @@ class Instructor::Base < ApplicationController
   private def current_ir_member
     if session[:ir_member_id]
       @current_ir_member ||=
-      IrMember.find_by(id:session[:ir_members_id])
+      IrMember.find_by(id:session[:ir_member_id])
     end
   end
 
