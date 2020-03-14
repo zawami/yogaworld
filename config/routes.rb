@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
   namespace :instructor do
     root 'top#index'
+    get 'signup',to: "users#new"
     get "login", to: "sessions#new",as: 'login'
     post "session", to: "sessions#create",as: 'session'
     delete "session", to: "sessions#destroy"
