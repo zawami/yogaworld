@@ -7,7 +7,8 @@ ruby '2.6.4'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails"
 gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
-gem 'bootstrap', '~> 4.1.1'
+gem 'bootstrap-sass'
+gem 'sass-rails'
 gem 'jquery-rails'
 gem 'uglifier'
 # Use postgresql as the database for Active Record
@@ -63,5 +64,6 @@ group :test do
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'factory_bot_rails'
   gem 'rspec-rails'
+  gem 'shoulda-matchers'
   gem 'webdrivers'
 end

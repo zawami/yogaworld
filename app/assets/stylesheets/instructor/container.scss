@@ -1,15 +1,17 @@
 @import "colors";
 @import "dimensions";
+@import "bootstrap";
+@import "bootstrap-sprockets";
 
-div#wrapper{
-  div#container{
-    h1{
-      margin: 0;
-      padding: $moderate * 1.5 $moderate;
-      font-size: $large;
-      font-weight: normal;
-      background-color: #1a3333;
-      color: $light_gray;
-    }
-  }
-}
+// div#wrapper{
+//   div#container{
+//     h1{
+//       margin: 0;
+//       padding: $moderate * 1.5 $moderate;
+//       font-size: $large;
+//       font-weight: normal;
+//       //background-color: #1a3333;
+//       color: $light_gray;
+//     }
+//   }
+// }

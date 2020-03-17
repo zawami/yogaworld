@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe Instructor::UsersController, type: :controller do
+RSpec.describe Instructor::IrMembersController, type: :controller do
 
   describe "GET #new" do
     it "returns http success" do

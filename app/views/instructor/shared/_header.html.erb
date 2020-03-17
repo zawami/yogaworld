@@ -1,10 +1,23 @@
 <header class="navbar navbar-fixed-top navbar-inverse"> 
-  <span class="logo-mark">YOGA WORLD</span>
-  <%=
-    if current_ir_member
-      link_to "Logout",instructor_session_path,method: :delete
-    else
-      link_to "Log in", :instructor_login
-    end
-  %>
+  <div class="container">
+  <%= link_to "sample app", instructor_root_path, id: "logo" %>
+    <nav>
+        <ul class="nav navbar-nav navbar-right">
+          <li><%= link_to "Home",   instructor_root_path %></li>
+          <li><%= link_to "Help",  '#' %></li>
+<% 
+=begin
+%>
+        <%=
+          if current_ir_member
+            link_to "Logout",instructor_session_path,method: :delete
+          else
+            link_to "Log in", :instructor_login
+          end
+        %>
+<%
+=end
+%>
+    </nav>
+  </div>
 </header>
